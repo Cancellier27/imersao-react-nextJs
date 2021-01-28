@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 import db from '../db.json';
 import Widget from '../src/components/Widget'
@@ -22,7 +23,7 @@ export const QuizContainer = styled.div`
     margin: auto;
     padding: 15px;
   }
-`;
+`
 
 export default function Home() {
   return (
